@@ -1,0 +1,39 @@
+table.vulnTable  td {
+	padding: 10px !important;
+}
+
+#tab_container .container_item {
+  display: none;
+}
+
+#tab_container .container_item.is-active {
+  display: block;
+}
+
+.card-bulma {
+	padding: 0px !important;
+}
+
+.bulma th, .bulma  td {
+	padding: 0.5em 0.75em !important;
+}
+
+.bulma tbody:first-child tr th:first-child, 
+.bulma tbody:first-child tr td:first-child {
+	border-left: none !important;
+}
+
+.grayed {
+	color: gray;
+	font-weight: normal;
+}
+
+#scan_status {
+	display: none;
+}
+
+.toolUsed {
+	color: gray;
+	font-size: 90%;
+	margin-top: 5px;
+}
